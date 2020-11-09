@@ -1,10 +1,11 @@
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
     //BEM
     <div className="app">
-      <h1>HEllO</h1>
+      <Header />
     </div>
   );
 }
